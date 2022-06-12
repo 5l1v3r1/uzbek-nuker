@@ -1,2 +1,4 @@
 @echo off
-npm install 
+npm i node-bash-title
+npm i colors
+npm i discord.js-selfbot
