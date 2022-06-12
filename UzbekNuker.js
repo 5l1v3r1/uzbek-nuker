@@ -30,6 +30,10 @@ client.on('message', async message => {
 
 
         if (userid.includes(message.author.id)) {
+            function randint(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+
             const count = args[1]
             if (isNaN(count)) return message.channel.send('Укажи число')
             if (!count) return message.channel.send('Укажи количество сообщений для спама')
@@ -39,7 +43,7 @@ client.on('message', async message => {
             console.log(colors.brightWhite(` [LOG] Спам в канал ${message.channel.name} запущен! будет отправлено ${count} сообщений`))
 
             for (let i = 0; i < count; i++) {
-                message.channel.send(messagee)
+                message.channel.send(messagee + " | " + randint(1, 500))
 
 
             }
