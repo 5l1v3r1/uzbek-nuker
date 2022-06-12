@@ -13,5 +13,6 @@
 ```
 1. ping 
 2. nuke
+3. Spam [Количество сообщений] [Сообщение]
 ```
 ![изображение](https://user-images.githubusercontent.com/102496559/173211244-9b201501-57fa-4035-8eb2-7c78179fa38e.png)
