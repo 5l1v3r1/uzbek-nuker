@@ -1,0 +1,16 @@
+{
+  "name": "selfbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UzbekNuker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "problematik1",
+  "license": "ISC",
+  "dependencies": {
+    "console-title": "^1.1.0",
+    "discord": "^0.8.2",
+    "discord.js-selfbot": "^12.0.2"
+  }
+}
